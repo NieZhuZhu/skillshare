@@ -9,6 +9,33 @@ All notable changes to skillshare are documented here. For the full commit histo
 
 ---
 
+## [0.32.0] - 2026-11-25
+
+
+### New Features
+
+* install from PyPI with uv, pipx or pip ([#1026](https://github.com/runkids/skillshare/issues/1026)) ([324de68](https://github.com/runkids/skillshare/commit/324de6849feb80ad6fd6f2df5be54c4a3392f2e7))
+* **mcp:** let a project override a shared server's settings ([#1010](https://github.com/runkids/skillshare/issues/1010)) ([d71ea71](https://github.com/runkids/skillshare/commit/d71ea7168caaaa3aaff403d64783bcc0974f5455)), closes [#1007](https://github.com/runkids/skillshare/issues/1007)
+* show what MCP tool definitions and skills cost in context ([#1012](https://github.com/runkids/skillshare/issues/1012)) ([96af335](https://github.com/runkids/skillshare/commit/96af335f466dc5309daeb15c8641c963266c19eb))
+* **ui:** pick a shared MCP server's projects from the MCP page ([#1009](https://github.com/runkids/skillshare/issues/1009)) ([c30f52b](https://github.com/runkids/skillshare/commit/c30f52bb6f63f9f30dae0af3f8d78562343e7242)), closes [#1006](https://github.com/runkids/skillshare/issues/1006)
+* **ui:** search, filter and preview pending updates ([#1033](https://github.com/runkids/skillshare/issues/1033)) ([9147653](https://github.com/runkids/skillshare/commit/9147653b819075b937a0e665f08fad8db38a90c9))
+* **ui:** select a whole group from its heading ([#1017](https://github.com/runkids/skillshare/issues/1017)) ([71e11fe](https://github.com/runkids/skillshare/commit/71e11feaccade9987047bdb6f29657bb21db5612)), closes [#1014](https://github.com/runkids/skillshare/issues/1014)
+* **ui:** show and edit a project's override of a shared MCP server ([#1011](https://github.com/runkids/skillshare/issues/1011)) ([78d3fa2](https://github.com/runkids/skillshare/commit/78d3fa27bc02041494d9407084a1174e21d3ca83)), closes [#1007](https://github.com/runkids/skillshare/issues/1007)
+* **ui:** split the MCP page into global and chosen-project sections ([#1008](https://github.com/runkids/skillshare/issues/1008)) ([fe53e45](https://github.com/runkids/skillshare/commit/fe53e45c9efa07ff2a53a422e2135f07c1c29e93)), closes [#1006](https://github.com/runkids/skillshare/issues/1006)
+* **update:** merge upstream changes into locally edited skills and agents ([#1018](https://github.com/runkids/skillshare/issues/1018)) ([ca5854d](https://github.com/runkids/skillshare/commit/ca5854db553e4ec358b82afa0565ee800dc558f0))
+
+
+### Bug Fixes
+
+* find the built-in skill in a folder, and show when it is disabled ([#1031](https://github.com/runkids/skillshare/issues/1031)) ([4d4812f](https://github.com/runkids/skillshare/commit/4d4812f99db924f01beae76818c480a8ba014096))
+* install from the clone the skill listing already made ([#1024](https://github.com/runkids/skillshare/issues/1024)) ([4cd177d](https://github.com/runkids/skillshare/commit/4cd177df956ad2345bb51fe780eb4fd0dff37405))
+* **install:** record an agent installed from its file path ([#1016](https://github.com/runkids/skillshare/issues/1016)) ([3869b57](https://github.com/runkids/skillshare/commit/3869b57a0013d9743842f3dea863af9c919a7516)), closes [#1013](https://github.com/runkids/skillshare/issues/1013)
+* keep dashboard installs from dropping on slow networks ([#1022](https://github.com/runkids/skillshare/issues/1022)) ([fccd421](https://github.com/runkids/skillshare/commit/fccd42190a86793b12f20784281ac1e8452b460d))
+* **plugins:** retry OpenCode updates until it has loaded its plugins ([#1004](https://github.com/runkids/skillshare/issues/1004)) ([bd8f8e8](https://github.com/runkids/skillshare/commit/bd8f8e8d6bc57cf2d26a875e6d5901cbf59a1099)), closes [#1003](https://github.com/runkids/skillshare/issues/1003)
+* **update:** accept candidate links left dangling by sparse checkout ([#1034](https://github.com/runkids/skillshare/issues/1034)) ([9685925](https://github.com/runkids/skillshare/commit/968592535cae70d29a6d83537acdc388c73aef47))
+* **update:** keep the layout a discovery install gave a git skill ([#1021](https://github.com/runkids/skillshare/issues/1021)) ([c9631e3](https://github.com/runkids/skillshare/commit/c9631e32bb99ed3bbd5a8a38a5a1a8905770df7c)), closes [#1019](https://github.com/runkids/skillshare/issues/1019)
+* **version:** check PyPI and give uvx and uv venv their own upgrade command ([#1032](https://github.com/runkids/skillshare/issues/1032)) ([d0fb094](https://github.com/runkids/skillshare/commit/d0fb09416efc8db8494157f2acb5443929092856))
+
 ## [0.31.0] - 2026-11-24
 
 ### New Features
